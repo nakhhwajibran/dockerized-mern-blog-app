@@ -1,15 +1,63 @@
-This app is a blog implementation that combines Express as the backend, MongoDB as the NoSQL data storage, Redis as the caching server, and React as the frontend. Users can create, read, blog posts, showcasing the basic functionality of a blog app. It offers a seamless blogging experience while exploring the capabilities of these technologies.
+# Dockerized MERN Blog App
 
+A full-stack blog application built with the **MERN stack** and containerized using **Docker**. The project uses React for the frontend, Node.js and Express for the backend, MongoDB for data storage, and Redis for caching.
 
-# AdvancedNodeStarter
+---
 
-Starting project Advanced Node implementing Redis like cache server
+## Project Overview
 
-### Setup
+This project demonstrates how to build and run a full-stack web application using modern JavaScript technologies and Docker-based development.
 
-- Run `npm install` in the root of the project to install server dependencies
-- Change into the client directory and run `npm install --legacy-peer-deps`
-- Change back into the root of the project and run `npm run dev` to start the server
-- Access the application at `localhost:3000` in your browser
+The application allows users to create and view blog posts while using MongoDB as the primary database and Redis as a caching layer to improve performance.
 
+---
 
+## Key Features
+
+- Full-stack MERN application
+- React frontend
+- Node.js and Express backend
+- MongoDB database integration
+- Redis caching layer
+- REST API structure
+- Dockerized application setup
+- Docker Compose for running multiple services
+- Organized backend folder structure with routes, models, services, middleware, and config
+
+---
+
+## Tech Stack
+
+### Frontend
+- React
+- JavaScript
+- HTML / CSS
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+
+### Database & Cache
+- MongoDB
+- Redis
+
+### DevOps
+- Docker
+- Docker Compose
+
+---
+
+## Architecture
+
+The application follows a simple full-stack architecture:
+
+```text
+React Frontend
+      |
+      v
+Express / Node.js Backend
+      |
+      +------> MongoDB Database
+      |
+      +------> Redis Cache
